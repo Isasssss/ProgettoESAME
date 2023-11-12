@@ -1,0 +1,192 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+/*body*/
+body {
+	background-color:  #ffffe6;
+	font-family: Georgia, serif;
+}
+p {
+	font-size: 18px;
+}
+
+.img-res{
+	max-width: 100%; 
+	height: auto;	
+}
+
+.justify{
+	text-align: justify;
+}
+/*navbar*/
+ 
+.navbar {
+	background-color: #ffe6cc !important;
+	margin:auto;
+	padding: 8px 10px 13px 5px;
+	border: 2px solid #ffb566;
+}
+.navbar-brand  {
+	font-size: 27px;
+}
+.sub {
+	font-size: 17px;
+	padding-left: 22px;
+	text-align: center;
+}
+
+.collapse {
+	padding-left: 20px;
+	word-spacing: 4px;
+}
+
+.nav-link {
+	font-size: 20px;
+	word-spacing: 2px;
+}
+
+.language {
+	position: absolute;
+	right: 15px;
+	padding: 10px;
+	color: #D74600
+}
+.language img { border: 0; 
+}
+
+.sezione-presentazione {
+	padding: 20px 100px 15px 0px;
+}
+
+.sezione-progetto {
+	padding: 30px 40px 20px 30px;
+}
+
+
+/*strumenti*/
+article {
+	margin-left: -10px;
+	margin-right: -10px;
+	padding: 10px 45px 60px 45px;
+}
+.esp{
+	color: 	 black;
+	padding: 22px 10px 22px 15px;
+	text-align: center;
+}
+.white {
+	background: #ffe6cc;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; 
+}
+.card-i {
+	height: 100%;
+	width: 90%;
+	display: flex;
+	padding: 3px 3px 3px 3px;
+	background-color: white;
+}
+
+
+/*dove siamo*/
+.localizzazione-iframe {
+	padding-left: 70px;
+	padding-top: 30px;
+	padding-bottom:30px;
+}
+
+.mt-6 {
+	height: 100%;
+	width: 90%;
+	margin: auto;
+}
+
+.card-title {
+	text-align: center;
+	font-size: 23px;
+}
+.card-text{
+	padding: 5px 10px 10px 10px;
+	font-size: 1.1rem;
+}
+
+footer {
+	background-color: #ffe6cc !important;
+	padding: 35px 15px 20px 15px;
+	border: 1px groove #ffb566;	
+}
+
+/*breadcrumb*/
+.breadcrumb {background-color:  #ffffe6 !important}
+
+/*items*/
+.nav-tabs {
+	background-color: #ffffe6 !important ;
+}
+.nav-link {
+	color: black;
+}
+/*card di item catalogo*/
+.nav-item {
+	text-decoration-color:#29000A!important ;
+}
+
+.card-item {
+	width: 95%!important;
+	height: 100%!important;
+	text-align: left!important;
+	line-height: 1.6em;
+}
+.text-dark {
+	color:#29000A!important;
+}
+.card-item img{
+	height: 420px;
+}
+
+.btn-metadata {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*scheda item*/
+.license img {
+	border-width: 0; 
+	width: 70px;
+}
+.carousel-item {
+	background-color: #e6e6e6;
+	height: auto !important;
+	width: 100% !important;
+}
+.carousel-item img{
+	height: 620px !important;
+	width: 400px !important;
+	object-fit: cover!important;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.card-s {
+	height: 100%;
+	width: 95%;
+	display: flex;
+	padding: 1px 1px 1px 1px;
+	background-color: white;
+	flex-direction: column;
+	align-items: center;
+}
+.card-s-text {
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 2px;
+}
