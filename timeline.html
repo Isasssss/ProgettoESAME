@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title> Archivio Enzo Degani </title>
+  <!--charset-->
+  <meta charset="utf-8">
+  <!--viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+
+    <!--Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <a class="navbar-brand" href="#">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="contenitore-titolo">
+        <a class="navbar-brand titolonav" href=""> Archivio <strong> Enzo Degani</strong></a> <br><span
+          class="sub">Appunti e carte di un filologo</span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#progetto">Il progetto</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="catalogo.html">Il Catalogo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="catalogo.html" role="button" data-toggle="dropdown"
+              aria-expanded="false">Sezioni</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Date</a>
+              <a class="dropdown-item" href="#">Autori</a>
+              <a class="dropdown-item" href="#">Temi</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Esplora</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-3">
+    <!--LINEA DEL TEMPO-->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 pt-3">
+          <h2 class="text-dark text-center">Linea del Tempo</h2>
+          <h3 class="text-dark sub">La vita accademica e gli scritti</h3>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!--BREADCRUMB-->
+        <div class="col-md-2 col-sm-2 col-12 mt-4 ">
+          <aside>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb nomobile">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Linea del Tempo</li>
+              </ol>
+            </nav>
+
+
+            <div class="mt-5 desktop">
+              <h6><b>Come funziona la Linea del Tempo:</b></h6>
+              <div class="card item">
+                <div class="card-body text-center">
+
+                  <p>Clicca sulle frecce bianche per scoprire alcuni momenti salienti della carriera di Enzo
+                    Degani</p>
+
+                </div>
+              </div>
+          </aside>
+        </div>
+
+        <!--ITEM-->
+        <div class="col-md-8 col-sm-8 col-12">
+
+          <!--LINEA DEL TEMPO-->
+          <iframe
+            src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=15hk34K0BXfncpEbNSG0onMjvefrp62jVWJu9kcWcm7w&font=Default&lang=en&initial_zoom=2&height=650'
+            width='100%' height='800' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+        </div>
+
+
+
+        <!--footer-->
+        <footer>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Archivio Enzo Degani</h3>
+                <p><a href="index.html">Torna alla Home</a></p>
+              </div>
+              <div class="col-md-4"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                    alt="Licenza Creative Commons" style="border-width: 0"
+                    src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" class="license" /></a>
+                <p>Quest'opera è distribuita con Licenza <a rel="license"
+                    href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribuzione - Non
+                    commerciale - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
+              </div>
+              <div class="col-md-4">
+                <p><a href="#" title="Credits">Credits</a> | <a href="#" title="Licenze">Licenze</a></p>
+                <p>© Copyright (c) Isabella Colliva, 2023</p>
+                <p>Dipartimento di Filologia Classica e Italianistica</p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!--Js Bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>

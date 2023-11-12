@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dcterms="http://purl.org/dc/terms/">
+<dc:title>Arifrade l'Anassagoreo</dc:title>
+<dc:creator>Enzo Degani</dc:creator>
+<dc:date>1960</dc:date>
+<dc:subject xsi:type="dcterms:LCC">PA201-899</dc:subject>
+<dc:subject xsi:type="dcterms:LCC">B108-708</dc:subject>
+<dc:subject xsi:type="dcterms:LCSH">http://id.loc.gov/authorities/subjects/sh85057142</dc:subject>
+<dc:description>l'articolo riguarda Arifrade, uno dei personaggi dell'Atene del V secolo che Aristofane attacca nelle sue commedie con particolare violenza, e in particolare le notizie che permettono di ricostruirne la figura storica e il rapporto con gli insegnamenti del filosofo Anassagora</dc:description>
+<dc:publisher>editore F. Cappelli</dc:publisher>
+<dc:type>saggio</dc:type>
+<dc:format>image/tiff</dc:format>
+<dcterms:Physicalmedium>carta</dcterms:Physicalmedium>
+<dc:identifier>http://id.sbn.it/bid/CAG0929857</dc:identifier>
+<dcterms:IsPartOf>Maia, rivista di letterature classiche, anno XII</dcterms:IsPartOf>
+<dc:language xsi:type="dcterms:ISO639-2">ita</dc:language>
+<dc:language xsi:type="dcterms:ISO639-2">grc</dc:language>
+<dc:coverage>Bologna</dc:coverage>
+<dc:rights>Copyright 2022-2023, Editrice Morcelliana</dc:rights>
+</metadata>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <title> Archivio Enzo Degani </title>
+  <!--charset-->
+  <meta charset="utf-8">
+  <!--viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+
+
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+
+    <!--Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+      <a class="navbar-brand" href="#">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="contenitore-titolo">
+        <a class="navbar-brand titolonav" href=""> Archivio <strong> Enzo Degani</strong></a> <br><span
+          class="sub">Appunti e carte di un filologo</span>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/#progetto">Il progetto</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="catalogo.html">Il Catalogo</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-toggle="dropdown"
+              aria-expanded="false">Sezioni</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Date</a>
+              <a class="dropdown-item" href="#">Autori</a>
+              <a class="dropdown-item" href="#">Temi</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Esplora</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main class="pb-5 pt-3">
+    <!-- items -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-12  pb-1 pt-1">
+          <h2 class=" text-center"><span class="">Catalogo</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- classi col-sm e col-xs rispettivamente per small devices (tablet) e extrasmall devices (mobile) -->
+        <div class="col-md-2 col-sm-2 col-12 mt-4">
+          <aside>
+            <!-- breadcrumbs -->
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb pl-1 pb-1">
+                <li class="breadcrumb-item"><a href="index.html" class="link" title="Torna a Home">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Catalogo</li>
+              </ol>
+            </nav>
+            <!-- filtri -->
+            <!-- ordina la lista -->
+            <div class="checkbox-container">
+              <h5 class="mb-0 pt-1">Riordina la lista:</h5>
+              <div class="btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-outline-warning active mt-1">
+                  <input type="radio" checked> A-Z
+                </label>
+                <label class="btn btn-outline-warning mt-1">
+                  <input type="radio"> Z-A
+                </label>
+              </div>
+            </div>
+            <!-- filtra la lista -->
+            <div class="checkbox-container mt-4">
+              <h5 class="mb-0">Filtra la lista:</h5>
+              <!-- dropdown menu -->
+              <div class="dropdown dropright mt-1">
+                <button class="btn btn-outline-warning btn-outline-warning btn-block dropdown-toggle" type="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Date
+                </button>
+                <div class="dropdown-menu p-3">
+                  <!-- checkbox -->
+                  <input type="checkbox">
+                  <label>1958</label><br>
+                  <input type="checkbox">
+                  <label>1960</label><br>
+                  <input type="checkbox">
+                  <label>1961</label><br>
+                  <input type="checkbox">
+                  <label>1969</label><br>
+                  <input type="checkbox">
+                  <label>1977-78</label><br>
+                  <input type="checkbox">
+                  <label>1986</label><br>
+                  <input type="checkbox">
+                  <label>1988</label><br>
+                  <input type="checkbox">
+                  <label>1997</label><br>
+                  <input type="checkbox">
+                  <label>1999</label><br>
+                  <button type="button" class="btn btn-warning mt-2">Filtra</button>
+                </div>
+              </div>
+              <div class="dropdown dropright mt-2">
+                <button class="btn btn-light btn-light btn-block dropdown-toggle" type="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Autori
+                </button>
+                <div class="dropdown-menu p-3">
+                  <!-- checkbox -->
+                  <input type="checkbox">
+                  <label>Arifrade</label><br>
+                  <input type="checkbox">
+                  <label>Aristotele</label><br>
+                  <input type="checkbox">
+                  <label>Archiloco</label><br>
+                  <input type="checkbox">
+                  <label>Ipponatte</label><br>
+                  <input type="checkbox">
+                  <label>Eschilo</label><br>
+                  <input type="checkbox">
+                  <label>Euripide</label><br>
+                  <input type="checkbox">
+                  <label>Omero</label><br>
+                  <input type="checkbox">
+                  <label>Sofocle</label><br>
+                  <button type="button" class="btn btn-warning mt-2">Filtra</button>
+                </div>
+              </div>
+              <div class="dropdown dropright mt-2">
+                <button class="btn btn-warning btn-warning btn-block dropdown-toggle" type="button"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Temi
+                </button>
+                <div class="dropdown-menu p-3">
+                  <!-- checkbox -->
+                  <input type="checkbox">
+                  <label>Giambo</label><br>
+                  <input type="checkbox">
+                  <label>Elegia</label><br>
+                  <input type="checkbox">
+                  <label>Lirici greci</label><br>
+                  <input type="checkbox">
+                  <label>Poesia gastronomica</label><br>
+                  <input type="checkbox">
+                  <label>Lessicografia</label><br>
+                  <input type="checkbox">
+                  <label>Commedia</label><br>
+                  <input type="checkbox">
+                  <label>Tragedia</label><br>
+                  <input type="checkbox">
+                  <label>Dramma Satiresco</label><br>
+                  <input type="checkbox">
+                  <label>storia della filologia</label><br>
+                  <button type="button" class="btn btn-warning mt-2">Filtra</button>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <!-- items -->
+        <div class="col-md-9 col-sm-9 col-12">
+          <!-- COLONNE INNESTATE: ripeti all'interno di un div con classe col-*-* un div con classe row e innesta al suo interno nuovi div con classe col-*-* -->
+          <!-- tab -->
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-tabs mt-2">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" title="Tutti gli oggetti catalogati">Tutto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Solo testi catalogati">Testi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Solo fotografie catalogate">Fotografie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" title="Solo lettere catalogate">Lettere</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- prima riga di card per ciascun item -->
+          <div class="row">
+            <!-- item 1 -->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i
+                      class="bi bi-card-image"></i></a></span>
+                <img src="images/Degani_Aion_1_tesi _di_laurea_2.jpg" class="card-img-top" alt="Aion tesi di laurea">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title">Tesi di laurea:"Aion da Omero a Platone"</h4>
+                    <p class="card-text" style="margin-top:8px">Soggetto produttore:<b>Degani,
+                        Enzo<a href="http://viaf.org/viaf/229282618" target="_blank"
+                          title="Identificativo VIAF di Degani, Enzo" class="text-dark"><sup><u>VIAF</u></sup></a></b>
+                    </p>
+                    <hr />
+                    <p class="card-text">Data: <b><a href="#" title="1958" class="text-dark">1958</a></b></p>
+                    <hr />
+                    <p class="card-text">Soggetto conservatore:<b> Biblioteca "Ezio Raimondi" di Filologia Classica e
+                        Italianistica, Università di Bologna
+                        <a href="https://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" target="_blank"
+                          title="Biblioteca di Filologia Classica e Italianistica" class="text-dark">
+                          <sup><u>Geonames</u></sup></a></b></p>
+                  </div>
+                  <a href="" class="btn btn-metadata btn-warning" title="Tutti i metadati">Tutti i metadati</a>
+                </div>
+              </div>
+            </div>
+            <!-- item 2 -->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i
+                      class="bi bi-card-image"></i></a></span>
+                <img src="images/Degani_Aion_9_lettera_scardovi_1.jpg" class="card-img-top"
+                  alt="lettera di Italo Scardovi">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title">Lettera di Italo Scardovi</h4>
+                    <p class="card-text" style="margin-top:8px">Soggetto produttore:<b>Scardovi, Italo<a
+                          href="http://viaf.org/viaf/39505871" title="Identificavo VIAF di Italo Scardovi"
+                          class="text-dark"><sup><u>VIAF</u></sup></a></b></p>
+                    <hr />
+                    <p class="card-text">Data: <b><a href="#" title="1999" class="text-dark">1999</a></b></p>
+                    <hr />
+                    <p class="card-text">Soggetto conservatore:<b> Biblioteca "Ezio Raimondi" di Filologia Classica e
+                        Italianistica, Università di Bologna
+                        <a href="https://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" target="_blank"
+                          title="Biblioteca di Filologia Classica e Italianistica" class="text-dark">
+                          <sup><u>Geonames</u></sup></a></b></p>
+                  </div>
+                  <a href="" class="btn btn-metadata btn-warning" title="Tutti i metadati">Tutti i metadati</a>
+                </div>
+              </div>
+            </div>
+            <!-- item 3 -->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i
+                      class="bi bi-card-image"></i></a></span>
+                <img src="images/Degani_2_ESTRATTI_Arifrade_01.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title">"Arifrade l'Anassagoreo"</h4>
+                    <p class="card-text" style="margin-top:8px">Soggetto produttore:<b>Degani, Enzo<a
+                          href="http://viaf.org/viaf/229282618" target="_blank"
+                          title="Identificativo VIAF di Degani, Enzo" class="text-dark"><sup><u>VIAF</u></sup>;</a></b>
+                      <hr />
+                    </p>
+                    <p class="card-text">Data: <b><a href="#" title="1960" class="text-dark">1960</a></b></p>
+                    <hr />
+                    <p class="card-text">Soggetto conservatore:<b> Biblioteca "Ezio Raimondi" di Filologia Classica e
+                        Italianistica, Università di Bologna
+                        <a href="https://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" target="_blank"
+                          title="Biblioteca di Filologia Classica e Italianistica"
+                          class="text-dark"><sup><u>Geonames</u></sup></a></b></p>
+                  </div>
+                  <a href="item.html" class="btn btn-metadata btn-warning" title="Tutti i metadati">Tutti i metadati</a>
+                </div>
+              </div>
+            </div>
+            <!-- item 4 -->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i
+                      class="bi bi-card-image"></i></a></span>
+                <div> <img class="mySlides" src="images/Degani_TRAGEDIA_3_2_Carteggio_Sofocle_07.jpg"
+                    alt="lettera di Degani a Maehler" style="width:100%">
+                  <img class="mySlides" src="images/Degani_TRAGEDIA_3_2_Carteggio_Sofocle_08.jpg"
+                    alt="lettera di Maehler  a Degani" style="width:100%">
+                  <button class="w3-button w3-black btn-outline-light" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="w3-button w3-black btn-outline-light" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                <script>
+                  var slideIndex = 1;
+                  showDivs(slideIndex);
+
+                  function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                  }
+
+                  function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                  }
+                </script>
+
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title">Carteggio con Herwig Maehler</h4>
+                    <p class="card-text" style="margin-top:8px">Soggetti produttori:<b>Degani, Enzo<a
+                          href="http://viaf.org/viaf/229282618" target="_blank"
+                          title="Identificativo VIAF di Degani, Enzo" class="text-dark"><sup><u>VIAF</u></sup>;</a>
+                        Maehler, Erwig<a href="http://viaf.org/viaf/2483215" target="_blank"
+                          title="Identificativo VIAF di Maehler, Erwig" class="text-dark"><sup><u>VIAF</u></sup></a></b>
+                      <hr />
+                    <p class="card-text">Data: <b><a href="#" title="1986" class="text-dark">1986</a></b></p>
+                    <hr />
+                    <p class="card-text">Soggetto conservatore:<b> Biblioteca "Ezio Raimondi" di Filologia Classica e
+                        Italianistica, Università di Bologna
+                        <a href="https://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" target="_blank"
+                          title="Biblioteca di Filologia Classica e Italianistica"
+                          class="text-dark"><sup><u>Geonames</u></sup></a></b></p>
+                  </div>
+                  <a href="" class="btn btn-warning btn-metadata" title="Tutti i metadati">Tutti i metadati</a>
+                </div>
+              </div>
+            </div>
+            <!-- item 5 -->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i
+                      class="bi bi-card-image"></i></a></span>
+                <img src="images/foto_premio2.jpg" class="card-img-top flex" alt="foto premio">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title">Fotografia della consegna del Praemium Classicum Clavarense</h4>
+                    <p class="card-text" style="margin-top:8px">Soggetto produttore:<b>Associazione Italiana di Cultura
+                        Classica<a href="http://viaf.org/viaf/155596104" target="_blank"
+                          title="Identificativo VIAF di Associazione Italiana di Cultura Classica"
+                          class="text-dark"><sup><u>VIAF</u></sup>;</a>
+                        <hr />
+                      </b></p>
+                    <p class="card-text">Data: <b><a href="#" title="17 Aprile 1997" class="text-dark">17 Aprile
+                          1997</a></b></p>
+                    <hr />
+                    <p class="card-text">Soggetto conservatore:<b> Biblioteca "Ezio Raimondi" di Filologia Classica e
+                        Italianistica, Università di Bologna
+                        <a href="https://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" target="_blank"
+                          title="Biblioteca di Filologia Classica e Italianistica"
+                          class="text-dark"><sup><u>Geonames</u></sup></a></b></p>
+                  </div>
+                  <a href="" class="btn btn-warning btn-metadata" title="Tutti i metadati">Tutti i metadati</a>
+                </div>
+              </div>
+            </div>
+            <!-- item 6 -->
+            <div class="col-md-4 mt-4">
+              <div class="card card-item">
+                <span class="ml-2 mt-2 p-2"><a href="#" target="_blank" title="Vedi tutte le immagini del catalogo"><i
+                      class="bi bi-card-image"></i></a></span>
+                <img src="images/targa_premio.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <div class="card-metadata">
+                    <h4 class="card-title">Targa del Praemium Classicum Clavarense</em></h4>
+                    <p class="card-text" style="margin-top:8px">Soggetto produttore:<b>Associazione Italiana di Cultura
+                        Classica<a href="http://viaf.org/viaf/155596104" target="_blank"
+                          title="Identificativo VIAF di Associazione Italiana di Cultura Classica"
+                          class="text-dark"><sup><u>VIAF</u></sup>;</a>
+                        <hr />
+                      </b>
+                    <p class="card-text">Data: <b><a href="#" title="17 Aprile 1997" class="text-dark">17 Aprile
+                          1997</a></b></p>
+                    <hr />
+                    <p class="card-text">Soggetto conservatore:<b> Biblioteca "Ezio Raimondi" di Filologia Classica e
+                        Italianistica, Università di Bologna
+                        <a href="https://www.geonames.org/12122872/biblioteca-%22ezio-raimondi%22.html" target="_blank"
+                          title="Biblioteca di Filologia Classica e Italianistica"
+                          class="text-dark"><sup><u>Geonames</u></sup></a></b></p>
+                  </div>
+                  <a href="" class="btn btn-warning btn-metadata" title="Tutti i metadati">Tutti i metadati</a>
+                </div>
+              </div>
+            </div>
+            <!-- sidebar -->
+            <div class="col-md-1 col-sm-1 col-12 mt-4">
+              <aside>
+                <div>
+
+                </div>
+              </aside>
+            </div>
+          </div>
+    </section>
+  </main>
+
+  <!--footer-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Archivio Enzo Degani</h3>
+          <p><a href="index.html">Torna alla Home</a></p>
+        </div>
+        <div class="col-md-4"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+              alt="Licenza Creative Commons" style="border-width: 0"
+              src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" class="license" /></a>
+          <p>Quest'opera è distribuita con Licenza <a rel="license"
+              href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribuzione - Non commerciale -
+              Condividi allo stesso modo 4.0 Internazionale</a>.</p>
+        </div>
+        <div class="col-md-4">
+          <p><a href="#" title="Credits">Credits</a> | <a href="#" title="Licenze">Licenze</a></p>
+          <p>© Copyright (c) Isabella Colliva, 2023</p>
+          <p>Dipartimento di Filologia Classica e Italianistica</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Js Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

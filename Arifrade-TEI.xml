@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Arifrade l'Anassagoreo</title>
+				<author xml:id="ED">Enzo Degani</author>
+				<editor role="editor">F. Cappelli</editor>
+				<respStmt>
+					<resp>Marcatura</resp>
+					<name xml:id="IC">Isabella Colliva</name>
+				</respStmt>
+			</titleStmt> 
+			<publicationStmt>
+				<authority>Dipartimento di Filologia Classica e Italianistica</authority>
+				<pubPlace>Bologna</pubPlace>
+				<date when="2023">2023</date>
+			</publicationStmt> 
+			<seriesStmt>
+				<title>Maia, rivista di letterature classiche</title>
+				<idno type="ISBD">IT\ICCU\UFI\0311909</idno>
+			</seriesStmt>
+			<sourceDesc>
+				<bibl><title>Arifrade l'Anassagoreo</title> by <author>Enzo Degani</author>.<pubPlace>Bologna</pubPlace>:<publisher>editore F. Cappelli</publisher>, <date when="1960">1960</date>.<extent>26 p.</extent></bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<titlePage>
+				<docAuthor>Enzo Degani</docAuthor>
+				<docTitle>
+					<titlePart type="main">Arifrade l'Anassagoreo</titlePart>
+					<titlePart type="desc">Estratto da "Maia" Nuova Serie, fascicolo III, Anno XII, Luglio-Settembre 1960</titlePart>
+				</docTitle>
+				<docImprint>Arti Grafiche "F. Cappelli", Rocca San Casciano</docImprint>
+			</titlePage>
+
+			<div><p><add type="abstract" place="top">L'importanza della<foreign xml:lang="grc">γλῶσσα</foreign> ad<name type="place">Atene</name>,grazie ai sofisti:valore materiale e traslato saldamente intrecciati. Av. 1694-1705</add></p></div>
+		</front>
+		<body>
+			<div type="section"><p><add type="quote" place="top">Altro<foreign xml:lang="grc">αἰσχρουργός</foreign>è Aristillo</add></p></div>
+			<div type="part">
+				<head rend="bold">Arifrade l'Anassagoreo</head>
+				<p>Fra i personaggi <name type="population">ateniesi</name> degli ultimi decenni del<date from="-0500" to="-0400">V secolo</date>, che per i loro vizi e le loro meschinità si attirarono gli strali di  <name type="person">Aristofane</name>, fa spicco anche un certo  <name type="person">Arifrade</name>, una laida e singolare figura di debosciato.</p> 
+				<p><name type="person">Aristofane</name>non ci dice altro di lui, se non che praticava una sua trupe invenzione; e parrebbe solo questo il motivo per il quale egli lo attaccò spesso, e con particolare violenza, nelle sue commedie.</p>
+				<p>La prima sferzata contro <name type="person">Arifrade</name>si trova nella seconda parabasi dei <title rend="italic">Cavalieri</title>(vv.1274-1287):</p>
+				<lg><l><foreign xml:lang="grc">Λοιδορῆσαι τοὺς πονεροὺς οὐδὲν ἐστ'ἐπὶφθονον,</foreign></l>
+				<l><foreign xml:lang="grc">ἀλλὰ τιμὴ τοῖσι χρηστοῖς\, ὃστις εὖ λογὶζεται.</foreign></l>
+			</lg>          
+		</div>
+	</body>
+</text>
+</TEI>
