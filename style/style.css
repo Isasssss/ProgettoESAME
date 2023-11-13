@@ -177,7 +177,7 @@ footer {
 	padding-bottom: 1px;
 }
 .card-s {
-	height: 100%;
+	height: auto;
 	width: 95%;
 	display: flex;
 	padding: 1px 1px 1px 1px;
